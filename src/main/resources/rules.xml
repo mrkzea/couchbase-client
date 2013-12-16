@@ -1,0 +1,17 @@
+<rulesType>
+
+
+    <!-- Mapping to mocked responses -->
+
+    <getRuleTypeList>
+        <url>.*/path/response/A.json.*</url>
+        <file>getfiles/A.json</file>
+        <statuscode>200</statuscode>
+    </getRuleTypeList>
+    <getRuleTypeList>
+        <url>.*/path/response/B.json.*</url>
+        <file>getfiles/B.json</file>
+        <statuscode>200</statuscode>
+    </getRuleTypeList>
+
+</rulesType>
