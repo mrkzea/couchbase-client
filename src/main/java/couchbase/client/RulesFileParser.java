@@ -13,7 +13,7 @@ import java.io.IOException;
 public class RulesFileParser {
 
     public RulesType parseRulesFile() throws SAXException, ParserConfigurationException, IOException, JAXBException {
-        JAXBContext jaxbContext = JAXBContext.newInstance("com.unibet.mockhttpserver.xjc.generated");
+        JAXBContext jaxbContext = JAXBContext.newInstance("couchbase.client.xjc.generated");
         Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
         RulesType rulesType = (RulesType) unmarshaller.unmarshal(getClass().getClassLoader().getResourceAsStream("rules.xml"));
 

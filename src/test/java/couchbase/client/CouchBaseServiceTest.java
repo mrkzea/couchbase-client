@@ -41,7 +41,7 @@ public class CouchBaseServiceTest  {
                 "        \"homeName\": \"Manchester United\",\n" +
                 "        \"awayName\": \"Arsenal\",\n" +
                 "        \"sport\": \"FOOTBALL\",\n" +
-                "        \"boUri\": \"/offering/api/v2/kambi/betoffer/event/483322.json\",\n" +
+                "        \"boUri\": \"/offering/api/v2/betoffer/event/483322.json\",\n" +
                 "        \"participants\": [\n" +
                 "          {\n" +
                 "            \"participantId\": 123,\n" +

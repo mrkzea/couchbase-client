@@ -29,7 +29,8 @@ import static couchbase.client.Util.fromStringToRule;
 
 public class CouchBaseServiceImpl implements CouchBaseService {
 
-    private final String url = "http://app0243.proxmox.swe1.unibet.com:8091/pools";
+    /* couchbase server location */
+    private final String url = "http://app0243.proxmox.swe1.com:8091/pools";
 
     CouchbaseClient client;
     ClusterManager manager;
